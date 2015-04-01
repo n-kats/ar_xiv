@@ -41,7 +41,7 @@ module ArXiv
     end
 
     def to_query_string
-      "#{@key}:(\"#{@value.join("\"+AND+\"")}\")"
+      "#{@key}:%28%22#{@value.join("%22+AND+%22")}%22%29"
     end
   end
 
@@ -64,7 +64,7 @@ module ArXiv
       if @op.empty?
         @request.to_query_string
       else
-        "(#{@requests.map(&:to_query_string).join(")+#{@op.upcase}+(")})"
+        "%28#{@requests.map(&:to_query_string).join("%29+#{@op.upcase}+%28")}%29"
       end
     end
 
