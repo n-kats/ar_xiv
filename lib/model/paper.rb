@@ -1,5 +1,6 @@
 
 class Paper < ActiveRecord::Base
+  validates :id, presence: true
   validates :title, presence: true
-  validates :link_pdf, uniqueness: true
 end
+

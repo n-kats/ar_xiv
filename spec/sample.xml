@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3A%22math%22%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:"math"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Zr9Nz9LzOn3DbvbKhrhVId9IKNY</id>
+  <updated>2015-04-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">29539</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1405.3353v1</id>
+    <updated>2014-05-14T03:44:32Z</updated>
+    <published>2014-05-14T03:44:32Z</published>
+    <title>Which one is better: presentation-based or content-based math search?</title>
+    <summary>  Mathematical content is a valuable information source and retrieving this
+content has become an important issue. This paper compares two searching
+strategies for math expressions: presentation-based and content-based
+approaches. Presentation-based search uses state-of-the-art math search system
+while content-based search uses semantic enrichment of math expressions to
+convert math expressions into their content forms and searching is done using
+these content-based expressions. By considering the meaning of math
+expressions, the quality of search system is improved over presentation-based
+systems.
+</summary>
+    <author>
+      <name>Minh-Quoc Nghiem</name>
+    </author>
+    <author>
+      <name>Giovanni Yoko Kristianto</name>
+    </author>
+    <author>
+      <name>Goran Topic</name>
+    </author>
+    <author>
+      <name>Akiko Aizawa</name>
+    </author>
+    <link href="http://arxiv.org/abs/1405.3353v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1405.3353v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0110071v1</id>
+    <updated>2001-10-05T20:55:39Z</updated>
+    <published>2001-10-05T20:55:39Z</published>
+    <title>On ordinary forms and ordinary Galois representations</title>
+    <summary>  This is a revised version of the preprint which has been available
+electronically for a while. The paper will now appear in J. Ramanujan Math.
+Soc.
+</summary>
+    <author>
+      <name>Kirti Joshi</name>
+    </author>
+    <author>
+      <name>Chandrashekhar Khare</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX; to appear in J. Ramanujan Math. Soc</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Ramanujan Math. Soc. 16 no. 3, 2001, Pages 215--229</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0110071v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0110071v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0301030v1</id>
+    <updated>2003-01-22T08:14:23Z</updated>
+    <published>2003-01-22T08:14:23Z</published>
+    <title>Erratum: Pseudo-Hermiticity for a class of nondiagonalizable
+  Hamiltonians [J. Math. Phys. 43, 6343 (2002); math-ph/0207009]</title>
+    <summary>  An error in the paper [J. Math. Phys. 43, 6343 (2002); math-ph/0207009] is
+corrected. Further explanation is given.
+</summary>
+    <author>
+      <name>Ali Mostafazadeh</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">2 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Math. Phys. 44, 943 (2003)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math-ph/0301030v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math-ph/0301030v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0308001v1</id>
+    <updated>2003-08-01T17:39:26Z</updated>
+    <published>2003-08-01T17:39:26Z</published>
+    <title>Erratum to: Canonical coherent states for the relativistic harmonic
+  oscillator</title>
+    <summary>  The expression for $\hat{\kappa}$ in J. Math. Phys. 36, 3191 (1995) was
+miswritten. The correct expression is given.
+</summary>
+    <author>
+      <name>V. Aldaya</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IAA, CSIC, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Guerrero</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">University of Murcia, Spain</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Latex, 1 page. Erratum to J. Math. Phys. 36, 3191 (1995)</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Math. Phys. 44 (2003) 5456</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math-ph/0308001v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math-ph/0308001v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.6272v1</id>
+    <updated>2014-09-22T18:40:25Z</updated>
+    <published>2014-09-22T18:40:25Z</published>
+    <title>Language of physics, language of math: Disciplinary culture and dynamic
+  epistemology</title>
+    <summary>  Mathematics is a critical part of much scientific research. Physics in
+particular weaves math extensively into its instruction beginning in high
+school. Despite much research on the learning of both physics and math, the
+problem of how to effectively include math in physics in a way that reaches
+most students remains unsolved. In this paper, we suggest that a fundamental
+issue has received insufficient exploration: the fact that in science, we don't
+just use math, we make meaning with it in a different way than mathematicians
+do. In this reflective essay, we explore math as a language and consider the
+language of math in physics through the lens of cognitive linguistics. We begin
+by offering a number of examples that show how the use of math in physics
+differs from the use of math as typically found in math classes. We then
+explore basic concepts in cognitive semantics to show how humans make meaning
+with language in general. The critical elements are the roles of embodied
+cognition and interpretation in context. Then we show how a theoretical
+framework commonly used in physics education research, resources, is coherent
+with and extends the ideas of cognitive semantics by connecting embodiment to
+phenomenological primitives and contextual interpretation to the dynamics of
+meaning making with conceptual resources, epistemological resources, and
+affect. We present these ideas with illustrative case studies of students
+working on physics problems with math and demonstrate the dynamical nature of
+student reasoning with math in physics. We conclude with some thoughts about
+the implications for instruction.
+</summary>
+    <author>
+      <name>Edward F. Redish</name>
+    </author>
+    <author>
+      <name>Eric Kuo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.6272v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.6272v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0501012v3</id>
+    <updated>2006-04-05T11:02:57Z</updated>
+    <published>2005-01-02T06:40:18Z</published>
+    <title>Hyers-Ulam-Rassias Stability of Generalized Derivations</title>
+    <summary>  The generalized Hyers--Ulam--Rassias stability of generalized derivations on
+unital Banach algebras into Banach bimodules is established.
+</summary>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, minor changes, to appear in Internat. J. Math. Math. Sci</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Intern. J. Math. Math. Sci., 2006 (2006), 93942, 1--8.</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0501012v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0501012v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="39B82; 46H25; 39B52; 47B47" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.1228v1</id>
+    <updated>2007-09-08T18:46:05Z</updated>
+    <published>2007-09-08T18:46:05Z</published>
+    <title>Koszul duality for Operads</title>
+    <summary>  This is a copy of the article by the same authors published in Duke Math. J.
+(1994).
+</summary>
+    <author>
+      <name>Victor Ginzburg</name>
+    </author>
+    <author>
+      <name>Mikhail Kapranov</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Duke Math. J. 76 (1994), no. 1, 203--272</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0709.1228v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0709.1228v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7744v1</id>
+    <updated>2012-10-26T14:53:29Z</updated>
+    <published>2012-10-26T14:53:29Z</published>
+    <title>A proof of the Quadratic Reciprocity Law</title>
+    <summary>  A proof of the Quadratic Reciprocity Law is presented using a Lemma of Gauss,
+the theory of finite fields and the Frobenius automorfism.
+</summary>
+    <author>
+      <name>Math Dicker</name>
+    </author>
+    <link href="http://arxiv.org/abs/1210.7744v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.7744v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0301173v3</id>
+    <updated>2003-01-21T20:14:34Z</updated>
+    <published>2003-01-16T16:50:12Z</published>
+    <title>Homomorphisms of hyperelliptic jacobians</title>
+    <summary>  In his previous papers (Math. Res. Letters 7 (2000), 123--13; Progress in
+Math. 195 (2001), 473--490; Math. Res. Letters 8 (2001), 429--435; Moscow Math.
+J. 2 (2002), issue 2, 403-431; Proc. Amer. Math. Soc. 131 (2003), no. 1,
+95--102) the author introduced certain explicit constructions of hyperelliptic
+jacobians without nontrivial endomorphisms. In the present paper we discuss
+when these jacobians are mutually non-isogenous.
+</summary>
+    <author>
+      <name>Yu. G. Zarhin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX2e, 17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0301173v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0301173v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H40; 14K05; 11G30; 111G10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0409400v3</id>
+    <updated>2007-01-25T16:44:04Z</updated>
+    <published>2004-09-21T14:50:31Z</published>
+    <title>On the boundary motive of a Shimura variety</title>
+    <summary>  Applying the main results of math.AG/0408295, we identify the motives
+occurring as cones in the co-localization and localization filtrations of the
+boundary motive of a Shimura variety.
+</summary>
+    <author>
+      <name>J. Wildeshaus</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1112/S0010437X07002898</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1112/S0010437X07002898" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages; accepted for publication in Comp. Math</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Compositio Math. 143 (2007), 959-985</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0409400v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0409400v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14G35 (14F42)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

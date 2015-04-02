@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem "nokogiri"
 gem "activerecord"
 gem "sqlite3"
+gem 'bson'
 gem "guard"
-gem "wdm"
-gem "win32console"
+gem "guard-rspec"
+gem "wdm", ">=0.1.0" if Gem.win_platform?

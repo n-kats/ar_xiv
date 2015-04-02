@@ -7,3 +7,4 @@ ActiveRecord::Schema.define do
     t.datetime "updated_at"
   end
 end
+
