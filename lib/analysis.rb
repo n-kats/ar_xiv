@@ -1,9 +1,6 @@
 # coding : UTF-8
-require 'active_record'
-require './arXiv.rb'
 
-ar = []
-
+=begin
 class Paper < ActiveRecord::Base
   validates :title, presence: true
   validates :abstract, presence: true
@@ -44,8 +41,4 @@ Paper.all.each do |pa|
 end
 
 x = ha.to_a.sort{|x,y|y.last <=> x.last}
-
-puts x[-10000..-1]
-# 単純に単語を数える
-#
-
+=end
