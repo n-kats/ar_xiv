@@ -1,2 +1,2 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'arxiv.rb'
+require 'ar_xiv.rb'

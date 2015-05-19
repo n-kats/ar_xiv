@@ -1,10 +1,10 @@
 require 'net/http'
 require 'uri'
 require 'nokogiri'
-require 'category.rb'
-require 'request.rb'
-require 'xml_parser.rb'
-require 'version.rb'
+require 'ar_xiv/category'
+require 'ar_xiv/request'
+require 'ar_xiv/xml_parser'
+require 'ar_xiv/version'
 
 module ArXiv
   @config = {}
