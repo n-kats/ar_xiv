@@ -6,12 +6,12 @@ require 'ar_xiv/version'
 Gem::Specification.new do |spec|
   spec.name          = "ar_xiv"
   spec.version       = ArXiv::VERSION
-  spec.authors       = ["n-kats"]
+  spec.authors       = ["Katsunori Nakanishi"]
   spec.email         = ["n-kats19890214@hotmail.co.jp"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{simple request to arXiv}
+  spec.description   = %q{simple request to arXiv}
+  spec.homepage      = "https://github.com/n-kats/ar_xiv"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -26,6 +26,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "nokogiri"
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "guard", "~> 2.1"
+  spec.add_development_dependency "guard-rspec", "~> 4.5.0"
 end
