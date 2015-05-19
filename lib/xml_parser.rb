@@ -72,23 +72,23 @@ module ArXiv
     
     def to_short_hash
       {
-        id: id,
-        title: title,
-        authors: authors,
-        summary: summary,
-        categories: categories
+        "id"         => id,
+        "title"      => title,
+        "authors"    => authors,
+        "summary"    => summary,
+        "categories" => categories
       }    
     end
 
     def to_hash
       {
-        id: id,
-        title: title,
-        authors: authors,
-        abstract: summary,
-        updated: updated,
-        published: published,
-        categories: categories
+        "id"         => id,
+        "title"      => title,
+        "authors"    => authors,
+        "abstract"   => summary,
+        "updated"    => updated,
+        "published"  => published,
+        "categories" => categories
       }
     end
   end

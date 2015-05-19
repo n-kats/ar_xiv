@@ -7,18 +7,18 @@ module ArXiv
     def or(query)
       ComposedQuery.new("OR", self, query)
     end
-    
+
     def andnot(query)
       ComposedQuery.new("ANDNOT", self, query)
     end
 
-    # TODO: + ‚â - ‚ÌÀ‘•
+    # TODO: + ã‚„ - ã®å®Ÿè£…
   end
 
-  # AND OR ANDOR ‚ğˆÓ¯‚µ‚È‚¢query
+  # AND OR ANDOR ã‚’æ„è­˜ã—ãªã„query
   class Query
     include QueryOperator
-    # @query‚Í
+    # @queryã¯
     # {xx: [str,str,str]}
     def initialize(key, value=nil)
       if value==nil
@@ -30,7 +30,7 @@ module ArXiv
           @key = "all"
           @value = key
         when Hash
-          raise if key.keys.length != 1 # TODO: 1ˆÈŠO‚É‘Î‰
+          raise if key.keys.length != 1 # TODO: 1ä»¥å¤–ã«å¯¾å¿œ
           @key = key.keys.first
           @value = (key[@key].is_a? Array) ? key[@key] : [key[@key]]
         end
@@ -52,7 +52,7 @@ module ArXiv
       when String
         @op = str
         @requests = args
-      when Query 
+      when Query
         @op = ""
         @request = str
       else
@@ -78,7 +78,7 @@ module ArXiv
       @option = hash
       @query = query # String, Query, or ComposedQuery
     end
-    
+
     def api_url
       @option["search_query"] = @query.to_query_string if @query
       url = "http://export.arxiv.org/api/query?"
