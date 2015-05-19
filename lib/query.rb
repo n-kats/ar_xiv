@@ -30,7 +30,7 @@ module ArXiv
           @key = "all"
           @value = key
         when Hash
-          raise if key.keys.length != 1
+          raise if key.keys.length != 1 # TODO: 1以外に対応
           @key = key.keys.first
           @value = (key[@key].is_a? Array) ? key[@key] : [key[@key]]
         end

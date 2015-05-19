@@ -1,11 +1,9 @@
 # coding : UTF-8
-require 'active_record'
+
 require './lib/arxiv'
 require './lib/model/paper'
 
 config = YAML.load_file('./database.yml')
-ActiveRecord::Base.establish_connection(config["db"]["development"])
-I18n.enforce_available_locales = false
 =begin
 module ArXiv
   class Entry
@@ -30,10 +28,3 @@ hash = {
 
 ArXiv::get(hash, :it).each(&:add_to_db)
 
-=begin
-`
-sqlite3 arxiv.sqlite3
-.read imoprt.sql
-
-`
-=end

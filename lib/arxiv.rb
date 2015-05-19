@@ -7,20 +7,27 @@ require 'request.rb'
 require 'xml_parser.rb'
 require 'version.rb'
 
-
 module ArXiv
-  def self.view
-    hash = {
-      search_query: 'cat:math.GT',
-      start: 0,
-      max_results: 25,
-      sort_by: 'lastUpdatedDate',
-      sort_order: 'descending' 
-    }
-    puts Request.new(hash).url
-    puts
-    l = '-'*80
-    get(hash,:it).map{|x|[l,x.title, "  [#{x.link_pdf}]",x.updated,l, x.summary,l,'']}
+  @config = {}
+  def self.get(key, value=nil)
+    case key
+    when Query
+      query = key
+    when ComposedQuery
+      query = key
+    else
+      query = Query.new(key,value)
+    end
+    xml = Request.new(query,@config).get
+    XMLParser.parse_short(xml)
+  end
+
+  def self.config
+    @config
+  end
+
+  def self.config=(hash)
+    @config = hash
   end
 end
 

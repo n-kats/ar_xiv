@@ -19,8 +19,16 @@ module ArXiv
       @entries.map(&:to_hash)
     end
 
+    def to_short_obj
+      @entries.map(&:to_hash)
+    end
+
     def self.parse(xml)
-      XMLParse.new(xml).to_obj
+      new(xml).to_obj
+    end
+
+    def self.parse_short(xml)
+      new(xml).to_short_obj
     end
   end
 
@@ -60,6 +68,16 @@ module ArXiv
 
     def categories
       @xml.css('category').map{|x|x['term']}
+    end
+    
+    def to_short_hash
+      {
+        id: id,
+        title: title,
+        authors: authors,
+        summary: summary,
+        categories: categories
+      }    
     end
 
     def to_hash
