@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bson (3.0.1)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     coderay (1.1.0)
@@ -69,7 +68,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bson
   guard
   guard-rspec
   nokogiri
