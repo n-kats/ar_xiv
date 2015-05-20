@@ -75,7 +75,7 @@ module ArXiv
     PARAMS = %w{search_query start max_results id_list sort_by sort_order}
 
     def initialize(query=nil, hash={})
-      @option = hash
+      @option = hash.dup
       @query = query # String, Query, or ComposedQuery
     end
 

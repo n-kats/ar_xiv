@@ -9,6 +9,7 @@ require 'ar_xiv/version'
 module ArXiv
   @config = {}
   def self.get(key, value=nil)
+    raise "set config by ArXiv.config = some_hash" if @config.empty?
     case key
     when Query
       query = key
